@@ -1,5 +1,5 @@
 ## Diceroll
-Diceroll is a Haskell script that generates all possible unique combinations for a given list of values whose sum equals an inputted value.
+Diceroll is a Haskell script that generates all possible unique 8 number combinations for a given list of values whose sum equals an inputted value.
 
 ### Usage
 Using cabal:
