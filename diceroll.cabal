@@ -2,7 +2,7 @@ cabal-version:      2.4
 name:               diceroll
 version:            0.1.0.0
 synopsis:           A basic diceroll combinations calculator
-description:        Diceroll is a Haskell script that generates all possible unique combinations for a given list of values whose sum equals an inputted value.
+description:        Diceroll is a Haskell script that generates all possible unique 8 number combinations for a given list of values whose sum equals an inputted value.
 bug-reports:        https://github.com/TheGhostOfInky/diceroll/issues
 license:            GPL-3.0-or-later
 author:             TheGhostOfInky
