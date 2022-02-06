@@ -1,0 +1,21 @@
+cabal-version:      2.4
+name:               diceroll
+version:            0.1.0.0
+synopsis:           A basic diceroll combinations calculator
+description:        Diceroll is a Haskell script that generates all possible unique combinations for a given list of values whose sum equals an inputted value.
+bug-reports:        https://github.com/TheGhostOfInky/diceroll/issues
+license:            GPL-3.0-or-later
+author:             TheGhostOfInky
+maintainer:         theghostofinky@gmail.com
+extra-source-files: CHANGELOG.md
+
+executable diceroll
+    ghc-options:      
+        -threaded 
+        -funfolding-use-threshold=16 
+        -O2 
+        -optc-O3 
+    main-is:          diceroll.hs
+    build-depends:    base ^>=4.16.0.0
+    hs-source-dirs:   app
+    default-language: Haskell2010
